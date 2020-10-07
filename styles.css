@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(images/thimo-van-leeuwen-Mc2vQZK6FH0-unsplash.jpg);
+    margin: auto;
+    background-size: 100% auto;
+}
+
+.container {
+
+    width: 1300px;
+    height: 500px;
+    border: 10px solid floralwhite;
+    margin: 0 auto;
+    background-color: floralwhite;
+    margin-top: 80px;
+}
+
+.header {
+    display: flex;
+    height: 250px;
+}
+
+.title-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    background-image: url(images/mike-newbry-7VyXToCotr4-unsplash.jpg) ;
+    color: white;
+    margin-right: 1px;
+}
+
+
+
+.intro span {
+    margin-bottom: 10px;
+    font-size: 35px;
+    line-height: 60px;
+
+    
+}
+
+.intro {
+    text-align: center;
+    margin: 30px;
+}
+
+.intro span.highlight {
+    background-color: #333;
+    color: white;
+}
+
+
+.intro span.highlight-red {
+    background-color: darkred;
+    color: white;
+    transition-property: 0.3s;
+}
+
+a {
+    font-weight: bold;
+}
